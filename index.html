@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/logo.jpg"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">DevWeb</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#portifolio">Portifolio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, sou eu</h3>
+            <h1>Marcelo Moreira</h1>
+            <h3>Sou<span> Dev Frontend </span></h3>
+            <p>Desenvolvedor Web com uma experiencia de 3 anos. Tenho experiencia com criação de websites, landing pages, templates, jogos, entre outros.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/marcelo.devweb/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/Marcelo-devweb/marcelodevweb" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/marcelo-moreira-874324229/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.tiktok.com/@marcelo.devweb?lang=pt-BR" target="_blank"><i class='bx bxl-tiktok'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="assets/logo.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-img">
+            <img src="assets/logo.jpg" alt="">
+        </div>
+        <div class="sobre-content">
+            <h2 class="heading">Sobre <span>mim</span></h2>
+            <h3>Desenvolvedor Frontend</h3>
+            <p>Tenho 18 anos, sou Desenvolvedor Web ha 3 anos e tenho experiencias com varias coisas de dentro da área de programação. 
+                Domino algumas linguagens, entre elas está HTML e CSS que são de marcação, já as de programação são Python, JavaScript, PHP.
+                E também utilizo alguns frameworks como o laravel, bootstrap entre outros.
+                Tenho experiencia tambem com banco de dados, desenvolvimentos de jogos 2D, e sistemas.</p>
+        </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+        <h2 class="heading">Meus <span>Serviços</span></h2>
+        <div class="servicos-container">
+            <div class="servicos-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Desenvolvimento Web</h3>
+                <p>Criação de web sites utilizando algumas linguagens, como o html, css e js
+                    que são as três linguagens básicas para essa tarefa. Com isso, são criados
+                    sites dinâmicos, amigável e visualmente atraente, fácil de navegar
+                    e que proporcione uma experiência positiva ao usuário.</p>
+            </div>
+            <div class="servicos-box">
+                <i class='bx bxs-palette' ></i>
+                <h3>Web Design</h3>
+                <p> Processo de criação dos aspectos visuais e interativos de um site. Envolve o
+                    design do layout, tipografia, esquema de cores, imagens e outros elementos visuais
+                    que compõem a aparência do site. Tambem com o objetivo de trazer um site atraente e agradável.
+                </p>
+            </div>
+            <div class="servicos-box">
+                <i class='bx bx-joystick'></i>
+                <h3>Desenvolvedor de Jogos</h3>
+                <p>Criação e projeção videogames para várias plataformas, como consoles, PCs, dispositivos móveis
+                     e dispositivos de realidade virtual. Assim criando vários jogos envolventes, divertidos e visualmente atraentes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portifolio" id="portifolio">
+        <h2 class="heading">Últimos <span>Projetos</span></h2>
+        <div class="portifolio-container">
+            <div class="portifolio-box">
+                <img src="assets/1.png" alt="" >
+            </div>
+            <div class="portifolio-box">
+                <img src="assets/2.png" alt="">
+            </div>
+            <div class="portifolio-box">
+                <img src="assets/3.png" alt="">
+            </div>
+            <div class="portifolio-box">
+                <img src="assets/4.png" alt="">
+            </div>
+            <div class="portifolio-box">
+                <img src="assets/5.png" alt="">
+            </div>
+            <div class="portifolio-box">
+                <img src="assets/6.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2 class="heading">Fale <span>Comigo!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Número de Telefone">
+                <input type="text" placeholder="Assunto do Email">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>
+                Copyright &copy; 2023 by Marcelo Devweb | All Rights Reserved.
+            </p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
